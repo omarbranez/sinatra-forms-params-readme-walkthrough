@@ -11,5 +11,12 @@
 
     <!-- Insert Your Form Below -->
 
+    <form method="POST" action="/food">
+      <!-- we are POSTing data to the /food route, with the action attribute -->
+      <p>Your Name: <input type="text" name="name"></p>
+      <p>Your Favorite Food: <input type="text" name="favorite_food"></p>
+      <!-- name and favorite_food are now accessible through params -->
+      <input type="submit">
+    </form>
   </body>
 </html>
